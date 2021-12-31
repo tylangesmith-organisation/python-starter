@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "python-starter"
+version = "0.0.1"
+description = ""
+authors = ["Ty Lange-Smith <t.langesmith@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.9.2"
+black = "^21.7b0"
+flake8-black = "^0.2.3"
+pep8-naming = "^0.12.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+main = "python_starter.main:main"

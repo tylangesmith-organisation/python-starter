@@ -1,0 +1,10 @@
+neuron.egg-info/
+dist/
+build/
+__pycache__/
+.vscode/
+.coverage
+cov.xml
+.idea/
+.nox/
+.DS_Store
